@@ -1,11 +1,11 @@
-'use strict';
+"use strict";
 
 exports.register = function (server, options, next) {
 
-    next();
+  next();
 };
 
 
 exports.register.attributes = {
-    pkg: require('./package.json')
+  "pkg": require("./package.json")
 };
